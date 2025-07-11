@@ -1,0 +1,35 @@
+body {
+  background-color: $color-fondo;
+  color: $color-texto;
+  font-family: $font-principal;
+}
+
+h1, h2 {
+  font-family: $font-secundaria;
+  color: $color-violeta;
+}
+
+p {
+  font-size: 1.1rem;
+  color: $color-texto-secundario;
+}
+
+.foto-grupo {
+  max-width: $foto-grupo-max-width;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: $color-footer-fondo;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+
+  img {
+    width: 24px;
+    height: 24px;
+    margin: 0 0.25rem;
+  }
+}
